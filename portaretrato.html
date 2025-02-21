@@ -2074,5 +2074,30 @@ Just use your imagination, oh, oh
 I really love you
         </p>
     </section>
+    <div class="music-player-container">
+        <div class="title-music-container">
+            <h4 class="song-title">Imagination</h4>
+            <span class="song-author">Foster The People</span>
+        </div>
+        <div class="controls-music-container">
+            <div class="progress-song-container">
+                <div class="progress-bar">
+                    <span class="progress"></span>
+                </div>
+            </div>
+            <div class="time-container">
+                <span class="time-left" id="CurrentSongTime"></span>
+                <span class="time-left" id="SongLength"></span>
+            </div>
+        </div>
+        <audio controls preload="metadata" src="Audio.mp3" autoplay></audio>
+        <div class="main-song-controls">
+            <img src="Backward.svg" alt="" class="icon" id="Back10">
+            <img src="Play.svg" alt="" class="icon" id="PlayPause">
+            <img src="Forward.svg" alt="" class="icon" id="Plus10">
+        </div>
+    </div>
+    
+    <script src="code.js"></script>
 </body>
 </html>
