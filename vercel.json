@@ -1,5 +1,5 @@
 {
-    "rewrites": [{ "source": "/", "destination": "/portaretrato.html" }],
-    "buildCommand": "next build"
+    "rewrites": [{ "source": "/", "destination": "/portaretrato.html" }]
 }
+
 
