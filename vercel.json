@@ -1,6 +1,5 @@
 {
     "rewrites": [{ "source": "/", "destination": "/portaretrato.html" }],
-    "public": "public",
     "buildCommand": "next build"
 }
 
