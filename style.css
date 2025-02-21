@@ -19,16 +19,32 @@ section{
 
 p{
     position: relative;
-    font-size: .5rem;
+    font-size: 2vw;
     letter-spacing: 0.1em;
-    line-height: 0.65em;
-   background-image: url(yai.jpeg);
-   background-blend-mode: color-dodge;
-   background-position: center;
-   background-attachment: cover;
-   background-size: cover;
+    line-height: 0.8em;
+    background-image: url(yai.jpeg);
+    background-blend-mode: color-dodge;
+    background-position: center;
+    background-attachment: cover;
+    background-size: cover;
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
+}
+
+@media screen and (max-width: 768px) {
+    p {
+        font-size: 4vw;
+        line-height: 1em;
+        letter-spacing: 0.08em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    p {
+        font-size: 6vw;
+        line-height: 1.2em;
+    }
 }
 
 
