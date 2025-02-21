@@ -54,3 +54,5 @@ plus10.addEventListener('click', ()=>{
 back10.addEventListener('click', ()=>{
     audio.currentTime -=10;
 })
+
+
